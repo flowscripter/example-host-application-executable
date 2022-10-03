@@ -7,20 +7,13 @@
 [![deno doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/raw.githubusercontent.com/flowscripter/example-host-application/main/mod.ts)
 [![license: MIT](https://img.shields.io/github/license/flowscripter/example-host-application)](https://github.com/flowscripter/example-host-application/blob/main/LICENSE)
 
-> Executable example host application for the deno-dynamic-plugin-framework.
-
-## Project Template Usage
-
-1. Use as a
-   [template](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
-   to create a new repository.
-2. Update links and references in `README.md`.
+> Example host application executable for the [dynamic-plugin-framework](https://github.com/flowscripter/dynamic-plugin-framework).
 
 ## Binary Executable Usage
 
-Download and extract zip from: https://github.com/flowscripter/template-deno-executable/releases
+Download and extract zip from: https://github.com/flowscripter/example-host-application/releases
 
-Run the executable: `./template-deno-executable`
+Run the executable: `./example-host-application`
 
 ## Development
 
@@ -38,12 +31,9 @@ Refer to [functional_tests/README.md](functional_tests/README.md)
 
 ## Documentation
 
-### Overview
+### Framework API
 
-```mermaid
-classDiagram
-    Foo <|-- Bar
-```
+Refer to the [dynamic-plugin-framework](https://github.com/flowscripter/dynamic-plugin-framework) for an overview of what this example is demonstrating.
 
 ### API
 
