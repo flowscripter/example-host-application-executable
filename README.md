@@ -7,23 +7,31 @@
 [![deno doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/raw.githubusercontent.com/flowscripter/example-host-application/main/mod.ts)
 [![license: MIT](https://img.shields.io/github/license/flowscripter/example-host-application)](https://github.com/flowscripter/example-host-application/blob/main/LICENSE)
 
-> Example host application executable for the [dynamic-plugin-framework](https://github.com/flowscripter/dynamic-plugin-framework).
+> Example host application executable for the
+> [dynamic-plugin-framework](https://github.com/flowscripter/dynamic-plugin-framework).
 
 ## Binary Executable Usage
 
-Download and extract zip from: https://github.com/flowscripter/example-host-application/releases
+**NOTE**: The below won't work due to
+https://github.com/flowscripter/example-host-application/issues/3 Instead for
+now:
+
+    deno run --allow-net https://deno.land/x/flowscripter_example_host_application/mod.ts
+
+Download and extract zip from:
+https://github.com/flowscripter/example-host-application/releases
 
 Run the executable: `./example-host-application`
 
 ## Development
 
-Run: `deno run --unstable --allow-env --allow-read --allow-write --allow-ffi --allow-net mod.ts`
+Run: `deno run --unstable --allow-net mod.ts`
 
 Test: `deno test -A --unstable`
 
 Lint: `deno fmt mod.ts deps.ts src/ tests/`
 
-Compile: `deno compile --unstable --allow-env --allow-read --allow-write --allow-ffi --allow-net mod.ts`
+Compile: `deno compile --unstable --allow-net mod.ts`
 
 ## Functional Tests
 
@@ -33,7 +41,9 @@ Refer to [functional_tests/README.md](functional_tests/README.md)
 
 ### Framework API
 
-Refer to the [dynamic-plugin-framework](https://github.com/flowscripter/dynamic-plugin-framework) for an overview of what this example is demonstrating.
+Refer to the
+[dynamic-plugin-framework](https://github.com/flowscripter/dynamic-plugin-framework)
+for an overview of what this example is demonstrating.
 
 ### API
 
