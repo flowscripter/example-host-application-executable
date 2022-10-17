@@ -28,7 +28,8 @@ export async function exampleHostApplication(): Promise<void> {
   );
 
   extensionInfos.forEach((extensionInfo: ExtensionInfo) => {
-    let extensionInfoString = `extensionHandle: ${extensionInfo.extensionHandle}\n`;
+    let extensionInfoString =
+      `extensionHandle: ${extensionInfo.extensionHandle}\n`;
 
     if (extensionInfo.extensionData) {
       extensionInfoString += `extensionData:\n`;
