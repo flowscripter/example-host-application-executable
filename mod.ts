@@ -1,4 +1,3 @@
-import { hello } from "./src/hello.ts";
-export * from "./src/hello.ts";
+import { exampleHostApplication } from "./src/ExampleHostApplication.ts";
 
-hello();
+await exampleHostApplication();

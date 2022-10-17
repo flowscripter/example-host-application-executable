@@ -1,7 +1,5 @@
-import { assert } from "./test_deps.ts";
-import { hello } from "../src/hello.ts";
+import { exampleHostApplication } from "../src/ExampleHostApplication.ts";
 
-Deno.test("Hello Test", () => {
-  hello();
-  assert(true);
+Deno.test("Invoke example host application", async () => {
+  await exampleHostApplication();
 });
