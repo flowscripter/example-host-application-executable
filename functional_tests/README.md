@@ -10,10 +10,10 @@ Install requirements:
 
     pip3 install -r pip-requirements.txt
 
-#### ~~Testing~~
+#### Testing
 
 **NOTE**: The below won't work due to
-https://github.com/flowscripter/example-host-application/issues/3 Instead for
+https://github.com/flowscripter/example-host-application/issues/3 - instead for
 now:
 
     export EXECUTABLE="deno run --allow-net ../mod.ts"
