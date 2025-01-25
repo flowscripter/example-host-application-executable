@@ -7,7 +7,7 @@
 [![license: MIT](https://img.shields.io/github/license/flowscripter/example-host-application)](https://github.com/flowscripter/example-host-application/blob/main/LICENSE)
 
 > Example host application executable for the
-> [dynamic-plugin-framework](https://github.com/flowscripter/dynamic-plugin-framework).
+> [dynamic-plugin-framework](https://github.com/flowscripter/dynamic-plugin-framework)
 
 ## Binary Executable Usage
 
