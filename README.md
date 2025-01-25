@@ -3,8 +3,7 @@
 [![version](https://img.shields.io/github/v/release/flowscripter/example-host-application?sort=semver)](https://github.com/flowscripter/example-host-application/releases)
 [![build](https://img.shields.io/github/actions/workflow/status/flowscripter/example-host-application/release-deno-executable.yml)](https://github.com/flowscripter/example-host-application/actions/workflows/release-deno-executable.yml)
 [![coverage](https://codecov.io/gh/flowscripter/example-host-application/branch/main/graph/badge.svg?token=EMFT2938ZF)](https://codecov.io/gh/flowscripter/example-host-application)
-[![dependencies](https://img.shields.io/endpoint?url=https%3A%2F%2Fdeno-visualizer.danopia.net%2Fshields%2Fupdates%2Fhttps%2Fraw.githubusercontent.com%2Fflowscripter%2Fexample-host-application%2Fmain%2Fmod.ts)](https://github.com/flowscripter/example-host-application/blob/main/deps.ts)
-[![deno doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/raw.githubusercontent.com/flowscripter/example-host-application/main/mod.ts)
+[![deno doc](https://doc.deno.land/badge.svg)](https://jsr.io/@flowscripter/example-host-application/doc)
 [![license: MIT](https://img.shields.io/github/license/flowscripter/example-host-application)](https://github.com/flowscripter/example-host-application/blob/main/LICENSE)
 
 > Example host application executable for the
@@ -49,7 +48,7 @@ for an overview of what this example is demonstrating.
 
 Link to auto-generated API docs for the library:
 
-[API Documentation](https://doc.deno.land/https/raw.githubusercontent.com/flowscripter/example-host-application/main/mod.ts)
+[API Documentation](https://jsr.io/@flowscripter/example-host-application/doc)
 
 ## License
 

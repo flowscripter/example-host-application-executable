@@ -1,11 +1,13 @@
 import {
-  DefaultPluginManager,
   EXTENSION_POINT_1,
-  ExtensionInfo,
-  ExtensionPoint1,
-  log,
+  type ExtensionPoint1,
+} from "@flowscripter/example-plugin-api";
+import {
+  DefaultPluginManager,
+  type ExtensionInfo,
   UrlListPluginRepository,
-} from "../deps.ts";
+} from "@flowscripter/dynamic-plugin-framework";
+import * as log from "@std/log";
 
 /**
  * Searches for an extension, instantiates it and invokes it.

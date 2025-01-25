@@ -1,3 +1,4 @@
 /template-deno-executable
 /venv/
 /functional_tests/executable
+/functional_tests/features/support/__pycache__

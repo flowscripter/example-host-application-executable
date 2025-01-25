@@ -3,23 +3,6 @@ on:
   push:
     branches: [main]
 jobs:
-  test:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [windows-latest, ubuntu-latest]
-    steps:
-      - name: Test Deno
-        uses: flowscripter/.github/actions/run-deno-tests@v1
-  release:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Cross-Compile Deno
-        uses: flowscripter/.github/actions/cross-compile-deno-executable@v1
-        with:
-          name: example-host-application
-      - name: Release Deno
-        uses: flowscripter/.github/actions/release-deno-executable@v1
-        with:
-          name: example-host-application
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+  call-release-deno-executable:
+    uses: flowscripter/.github/.github/workflows/release-deno-executable.yml@v1
+    secrets: inherit
