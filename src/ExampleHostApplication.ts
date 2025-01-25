@@ -1,5 +1,12 @@
-import { EXTENSION_POINT_1, ExtensionPoint1 } from "@flowscripter/example-plugin-api";
-import { DefaultPluginManager, ExtensionInfo, UrlListPluginRepository } from "@flowscripter/dynamic-plugin-framework";
+import {
+  EXTENSION_POINT_1,
+  type ExtensionPoint1,
+} from "@flowscripter/example-plugin-api";
+import {
+  DefaultPluginManager,
+  type ExtensionInfo,
+  UrlListPluginRepository,
+} from "@flowscripter/dynamic-plugin-framework";
 import * as log from "@std/log";
 
 /**
